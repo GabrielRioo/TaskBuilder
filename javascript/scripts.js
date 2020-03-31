@@ -1,3 +1,4 @@
+//====================ADICIONAR/REMOVER TAREFAS=======================
 // Cria um botao de fechar e anexar ele a cada item da lista
 var myNodelist = document.getElementsByTagName("LI");
 var i;
@@ -53,3 +54,11 @@ function newElement() {
 	}
   }
 }
+
+//============================DRAG AND DROP================================
+
+$( function() {
+    $( ".sortable" ).sortable();
+    $( ".sortable" ).disableSelection();
+  } );
+
