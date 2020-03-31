@@ -1,19 +1,35 @@
-.balao {
+		header#cabecalho {
+			background-color: black;
+			margin: -2% -8px 2% -8px;
+			padding: 1% 0 1% 0;
+			color: white;
+			text-align: center;
+			font-size: 35pt;
+			font-family: Arial;
+		}
+		
+		div.balao {
 			border: 1px solid red;
 			border-radius: 10px;
 			background-color: red;
-			margin: 4px auto 4px auto;
+			color: white;
+			margin: 5px auto 5px auto;
 			padding-left: 10px;
 			padding-top: 10px;
-			width: 35em;
+			max-width: 600px;
+			width: auto;
 			height: 2em;
 			font-size: 15pt;
-			text-transform: uppercase;	
+			text-transform: uppercase;
+			cursor: pointer;
 			
 		}
-		.check {
+		input.check {
 			float: right;
 			transform: scale(2);
 			margin-top: 10px;
 			margin-right: 10px;
 		}
+		
+		
+		
