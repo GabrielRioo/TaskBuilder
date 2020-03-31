@@ -1,0 +1,7 @@
+-Interface
+-Caixa de Tarefas + CHECK
+-Responsividade
+-Adicionar e Deletar tarefas
+-Data dos dias Concluidos
+-Arrastar para cima ou para baixo
+-Login
