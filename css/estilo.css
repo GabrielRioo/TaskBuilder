@@ -1,0 +1,19 @@
+.balao {
+			border: 1px solid red;
+			border-radius: 10px;
+			background-color: red;
+			margin: 4px auto 4px auto;
+			padding-left: 10px;
+			padding-top: 10px;
+			width: 35em;
+			height: 2em;
+			font-size: 15pt;
+			text-transform: uppercase;	
+			
+		}
+		.check {
+			float: right;
+			transform: scale(2);
+			margin-top: 10px;
+			margin-right: 10px;
+		}
