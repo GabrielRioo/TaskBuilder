@@ -1,35 +1,89 @@
-		header#cabecalho {
-			background-color: black;
-			margin: -2% -8px 2% -8px;
-			padding: 1% 0 1% 0;
-			color: white;
-			text-align: center;
-			font-size: 35pt;
-			font-family: Arial;
-		}
-		
-		div.balao {
-			border: 1px solid red;
-			border-radius: 10px;
-			background-color: red;
-			color: white;
-			margin: 5px auto 5px auto;
-			padding-left: 10px;
-			padding-top: 10px;
-			max-width: 600px;
-			width: auto;
-			height: 2em;
-			font-size: 15pt;
-			text-transform: uppercase;
-			cursor: pointer;
-			
-		}
-		input.check {
-			float: right;
-			transform: scale(2);
-			margin-top: 10px;
-			margin-right: 10px;
-		}
+header#cabecalho {
+	background-color: black;
+	margin: -2% -8px 2% -8px;
+	padding: 1% 0 1% 0;
+	color: white;
+	text-align: center;
+	font-size: 35pt;
+	font-family: Arial;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li.balao {
+	border: 1px solid red;
+	border-radius: 10px;
+	background-color: #D00000;
+	color: white;
+	margin: 5px auto 5px auto;
+	padding-left: 10px;
+	padding-top: 10px;
+	max-width: 600px;
+	width: auto;
+	height: 2em;
+	font-size: 15pt;
+	text-transform: uppercase;
+	cursor: pointer;
+	position: relative;
+	list-style-type: none;
+	transition: 0.2s;
+	
+	/* make the list items unselectable */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+/* Cores das caixas impares  */
+ul li:nth-child(odd) {
+  background: #F90000;
+}
+
+ul li:hover {
+  background: #990000;
+}
+
+/* Quando clicar adiciona uma cor de fundo e risca o texto */
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Adiciona um check do lado do texto quando clicado */
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Posição do x */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 15px 16px;
+}
+
+/* Cor do hover do x */
+.close:hover {
+  background-color: #f44336;
+  color: white;
+  border-radius: 8px;
+}
+
+
+
 		
 		
 		
