@@ -11,8 +11,8 @@
 		<p> Task Builder </p>
 	</header>
 	<div id="myDIV" class="header">
-		<h2 style="margin:5px">Escreva sua Tarefa</h2>
-		<input type="text" id="myInput" placeholder="Title...">
+		<h2>Escreva sua Tarefa</h2>
+		<input type="text" id="myInput" placeholder="Tarefa">
 		<span onclick="newElement()" class="addBtn">Adicionar</span>
 	</div>
 	<br> <br>
@@ -63,7 +63,7 @@
 	  var t = document.createTextNode(inputValue);
 	  li.appendChild(t);
 	  if (inputValue === '') {
-		alert("You must write something!");
+		alert("Você precisa escrever alguma tarefa!");
 	  } else {
 		document.getElementById("myUL").appendChild(li);
 	  }
