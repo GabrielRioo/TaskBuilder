@@ -6,3 +6,5 @@
 -Arrastar para cima ou para baixo
 -Login
 -Acima das Tarefas, por a Data do dia atual
+-Botão para editar uma Task
+-Data a cima das tarefas
