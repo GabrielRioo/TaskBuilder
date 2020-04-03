@@ -7,4 +7,5 @@
 -Login
 -Acima das Tarefas, por a Data do dia atual
 -Botão para editar uma Task
--Data a cima das tarefas
+-Data a cima das tarefas (atualiza de acordo com  a data atual)
+-Escrever e enviar a tarefa com a tecla 'Enter'
