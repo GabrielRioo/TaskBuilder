@@ -1,11 +1,10 @@
 -Interface
--Caixa de Tarefas + CHECK
--Responsividade
--Adicionar e Deletar tarefas
+-Caixa de Tarefas + CHECK -- ok
+-Responsividade -- ok
+-Adicionar e Deletar tarefas -- ok
 -Data dos dias Concluidos
 -Arrastar para cima ou para baixo
 -Login
--Acima das Tarefas, por a Data do dia atual
 -Botão para editar uma Task
--Data a cima das tarefas (atualiza de acordo com  a data atual)
--Escrever e enviar a tarefa com a tecla 'Enter'
+-Data a cima das tarefas (atualiza de acordo com  a data atual) --ok
+-Escrever e enviar a tarefa com a tecla 'Enter' -- ok
