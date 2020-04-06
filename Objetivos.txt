@@ -3,7 +3,7 @@
 -Responsividade -- ok
 -Adicionar e Deletar tarefas -- ok
 -Data dos dias Concluidos
--Arrastar para cima ou para baixo
+-Arrastar para cima ou para baixo -- andamento
 -Login
 -Botão para editar uma Task
 -Data a cima das tarefas (atualiza de acordo com  a data atual) --ok
