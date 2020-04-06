@@ -55,10 +55,22 @@ function newElement() {
   }
 }
 
+  //=============Enviar com Enter==============
+  // const inputEle = document.getElementById('myInput');
+  // inputEle.addEventListener('keyup', function(e){
+  //   var key = e.which || e.keyCode;
+  //   if (key == 13) { // codigo da tecla enter
+  //     //adicionar a função aqui
+  //     alert('carregou enter o valor digitado foi: ' +this.value);
+  //   }
+  // });
+
 //============================DRAG AND DROP================================
 
 $( function() {
     $( ".sortable" ).sortable();
     $( ".sortable" ).disableSelection();
   } );
+
+
 
