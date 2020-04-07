@@ -1,3 +1,12 @@
+document.getElementsByTagName('li').value = localStorage.Texto;
+
+var salvarData = function () {
+  var texto = document.getElementsByTagName('li').value;
+  localStorage.setItem('Texto', texto)
+}
+
+document.onchange = salvarData
+
 //====================ADICIONAR/REMOVER TAREFAS=======================
 // Cria um botao de fechar e anexar ele a cada item da lista
 var myNodelist = document.getElementsByTagName("LI");
@@ -35,7 +44,7 @@ function newElement() {
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
-	alert("Você precisa escrever alguma tarefa!");
+	// alert("Você precisa escrever alguma tarefa!");
   } else {
 	document.getElementById("myUL").appendChild(li);
   }
@@ -67,7 +76,7 @@ function newElement() {
       var t = document.createTextNode(inputValue);
       li.appendChild(t);
       if (inputValue === '') {
-      alert("Você precisa escrever alguma tarefa!");
+      // alert("Você precisa escrever alguma tarefa!");
       } else {
       document.getElementById("myUL").appendChild(li);
       }
@@ -100,14 +109,3 @@ $( function() {
   } );
 
   //==================LOCAL STORAGE======================================
-
-document.getElementById('myInput').value = localStorage.Texto;
-
-var salvarData = function () {
-  var texto = document.getElementById('myInput').value;
-  localStorage.setItem('Texto', texto)
-}
-
-document.onchange = salvarData
-
-
