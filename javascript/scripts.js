@@ -99,5 +99,15 @@ $( function() {
     $( ".sortable" ).disableSelection();
   } );
 
+  //==================LOCAL STORAGE======================================
+
+document.getElementById('myInput').value = localStorage.Texto;
+
+var salvarData = function () {
+  var texto = document.getElementById('myInput').value;
+  localStorage.setItem('Texto', texto)
+}
+
+document.onchange = salvarData
 
 
