@@ -10,14 +10,14 @@ header#cabecalho {
 
 h1#task {
 	color: #D00000;
-	margin: 1.5rem auto 1.5rem auto;
-	font-size: 25pt;
+	margin: 1.5rem auto 1rem auto;
+	font-size: 35pt;
 }
 p#builder {
 	color: white;
 	margin: auto;
 	display: inline;
-	font-size: 25pt;
+	font-size: 30pt;
 }
 
 ul {
