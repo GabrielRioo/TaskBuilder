@@ -7,3 +7,5 @@ Create to organize your diary tasks.
 * Remove a task
 * Manage your tasks 
 
+![TaskBuilder](taskbuilder.png)
+
