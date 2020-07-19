@@ -1,3 +1,17 @@
+// confirm("Deseja apagar esse dado? \n Esse dado sera excluido!")
+// prompt("Digite seu email para receber as novidades: ", "Seu melhor email")
+// function dados(){
+//   let endereço = {
+//     rua: "Rua ds pinheiros",
+//     numero: 1234,
+//     bairro: "Centro",
+//     cidade: "Sao Paulo",
+//     uf: "SP"
+//   };
+// }
+// let teste = dados()
+// console.log(teste);
+
 document.getElementsByTagName('li').value = localStorage.Texto;
 
 var salvarData = function () {
